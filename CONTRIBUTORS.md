@@ -1,4 +1,5 @@
 Contributors:
+
     * Magnus Skjegstad
     * Halvdan Hoem Grelland
     * Jostein Aardal
