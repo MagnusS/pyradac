@@ -7,6 +7,8 @@ P2P-DPRD is an Internet-based peer-to-peer software to find other wireless devic
 
 P2P-DPRD provides a unix socket interface that Pyradac connects to. Pyradac then provides a text-based configuration interface that can be accessed via telnet or python API.
 
+P2P-DPRD and Pyradac are modules we have written to implement the architecture described in (this paper)[http://arxiv.org/pdf/1210.3552.pdf] (see Fig 1). P2P-DPRD is the discovery mechanism and Pyradac is the resource allocator framework. More specific resource/frequency allocation algorithms can be developed on top of Pyradac.
+
 ## Installation ##
 
 To compile, run "make depends" to download dependencies and clone p2p-dprd, and then "make" to compile it (only tested in Ubuntu).
