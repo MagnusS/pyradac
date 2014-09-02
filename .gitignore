@@ -1,0 +1,8 @@
+bin/p2pdprd
+src/p2p-dprd
+radac.log
+*.swp
+*~
+*.pyc
+*.o
+tags
