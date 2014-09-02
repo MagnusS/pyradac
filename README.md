@@ -5,7 +5,7 @@ Pyradac is a framework for building resource/frequency allocators for [p2p-dprd]
 
 P2P-DPRD is an Internet-based peer-to-peer software to find other wireless devices in your area. Pyradac connects to the devices found by P2P-DPRD over the Internet and provides a platform for exchanging additional data, such as current radio configuration, measured interference etc. 
 
-P2P-DPRD provides a unix socket interface that Pyradac connects to. Pyradac then provides a text-based configuration interface that can be accessed via TCP.
+P2P-DPRD provides a unix socket interface that Pyradac connects to. Pyradac then provides a text-based configuration interface that can be accessed via telnet or python API.
 
 ## Installation ##
 
